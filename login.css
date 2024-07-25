@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ body{
+     background: linear-gradient(to right,rgb(231, 155, 168),rgb(96, 96, 135)); 
+} 
+
+h2 a{
+ color:white;
+ text-align: center;
+ text-decoration: none;
+}
+P{
+    text-align: center;
+    font-size: 15px;
+ color:white;
+}
+
+#form{
+    /* border: 2px solid red; */
+    padding: 20px;
+    /* background-color: rgba(174, 145, 145, 0.138); */
+    width: 25%;
+    margin:auto;
+    margin-top: 80px;
+    border-radius: 20px;
+    /* text-align: center; */
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.27); 
+
+}
+
+#form div{
+    padding: 10px;
+}
+.btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    /* font-weight: 600; */
+    background-color: rgb(155, 156, 181);
+    color: black;
+    width: 48%;
+    margin-top: 20px;
+    
+
+}
+.btn:hover{
+    background-color: blue;
+    transform: scale(1.02);
+}
+
+
+#text,#lastText,#email,#password,#confirmPassword{
+    width:90% ;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px;
+
+}
+#heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(50, 42, 165);
+    font-size: 2.5rem;
+    color: white;
+  
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form creating</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <h2 id="heading">
+       <a href="./home.html"> Fi-SOLVER</a>
+     </h2>
+   
+    <div id="container">
+        <form id="form">
+            <h1>Login</h1>
+            <p>Enter your login Credentials</p>
+            
+                <div>
+                    <label for="text"><b>Name:</b></label>
+                    <input type="text" placeholder="Enter your Name" name="text" id="text">
+                </div>
+                <div>
+                <label for="lastText"><b>Last Name:</b></label>
+                <input type="text" placeholder="Enter your Last Name" name="lastText" id="lastText">
+            </div>
+            <div>
+                <label for="email"><b>Email</b>:</label>
+                <input type="email" placeholder="Enter Your Email" name="email" id="email">
+            </div>
+            <div>
+
+                <label for="radio"><b>Gender</b>:</label>
+                
+                <label for="radio">Male</label>
+                <input type="radio" placeholder="Male" name="radio" id="radio">
+                <label for="radio1">Female</label>
+                <input type="radio" placeholder="Female" name="radio" id="radio1">
+                <label for="radio2">Other</label>
+                <input type="radio" placeholder="Other" name="radio" id="radio2">
+            
+            </div>
+            <div>
+                <label for="password"><b>Password:</b></label>
+                <input type="password" placeholder="Enter your Password" name="password" id="password">
+                </div>
+                <div>
+                <label for="confirmPassword"><b> Confirm Password:</b></label>
+                <input type="password" placeholder="Confirm your Password" name="password" id="confirmPassword">
+            </div>
+            <div id="msg"></div>
+            
+                <button id="submit" class="btn">Login </button>
+            
+        
+                <button id="reset" class="btn">Reset</button>
+            
+            
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
